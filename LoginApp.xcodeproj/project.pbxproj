@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEB3DAC6250CD832001697EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DAC5250CD832001697EF /* AppDelegate.swift */; };
 		DEB3DAC8250CD832001697EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DAC7250CD832001697EF /* SceneDelegate.swift */; };
-		DEB3DACA250CD832001697EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DAC9250CD832001697EF /* ContentView.swift */; };
+		DEB3DACA250CD832001697EF /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DAC9250CD832001697EF /* LoginScreen.swift */; };
 		DEB3DACC250CD834001697EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB3DACB250CD834001697EF /* Assets.xcassets */; };
 		DEB3DACF250CD834001697EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB3DACE250CD834001697EF /* Preview Assets.xcassets */; };
 		DEB3DAD2250CD834001697EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB3DAD0250CD834001697EF /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 		DEB3DAC2250CD832001697EF /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB3DAC5250CD832001697EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB3DAC7250CD832001697EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEB3DAC9250CD832001697EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEB3DAC9250CD832001697EF /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		DEB3DACB250CD834001697EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB3DACE250CD834001697EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEB3DAD1250CD834001697EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			children = (
 				DEB3DAC5250CD832001697EF /* AppDelegate.swift */,
 				DEB3DAC7250CD832001697EF /* SceneDelegate.swift */,
-				DEB3DAC9250CD832001697EF /* ContentView.swift */,
+				DEB3DAC9250CD832001697EF /* LoginScreen.swift */,
 				DEB3DACB250CD834001697EF /* Assets.xcassets */,
 				DEB3DAD0250CD834001697EF /* LaunchScreen.storyboard */,
 				DEB3DAD3250CD834001697EF /* Info.plist */,
@@ -214,7 +214,7 @@
 				DEB3DAE8250CDFE9001697EF /* LoginViewModel.swift in Sources */,
 				DEB3DAC6250CD832001697EF /* AppDelegate.swift in Sources */,
 				DEB3DAC8250CD832001697EF /* SceneDelegate.swift in Sources */,
-				DEB3DACA250CD832001697EF /* ContentView.swift in Sources */,
+				DEB3DACA250CD832001697EF /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
