@@ -13,10 +13,10 @@ struct LoginScreen: View {
     
     var body: some View {
         VStack(alignment: .center, spacing: 20.0) {
-            ValidatedTextField("First Name", text: $viewModel.firstName, valid: true)
-            ValidatedTextField("Last Name", text: $viewModel.lastName)
-            ValidatedTextField("E-mail", text: $viewModel.email)
-            ValidatedTextField("Phone number", text: $viewModel.phoneNumber)
+            ValidatedTextField("First Name", text: $viewModel.firstName, valid: viewModel.firstName.isValidFirstName)
+            ValidatedTextField("Last Name", text: $viewModel.lastName, valid: viewModel.lastName.isValidLastName)
+            ValidatedTextField("E-mail", text: $viewModel.email, valid: viewModel.email.isValidEmail)
+            ValidatedTextField("Phone number", text: $viewModel.phoneNumber, valid: viewModel.phoneNumber.isValidPhoneNumber)
             Spacer()
         }.padding(EdgeInsets(top: 50, leading: 20, bottom: 30, trailing: 20))
     }
