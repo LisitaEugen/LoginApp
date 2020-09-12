@@ -9,17 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var firstName = ""
-    @State var lastName = ""
-    @State var email = ""
-    @State var phoneNumber = ""
+    @EnvironmentObject var viewModel: LoginViewModel
     
     var body: some View {
         VStack(alignment: .center, spacing: 20.0) {
-            TextField("First Name", text: $firstName)
-            TextField("Last Name", text: $firstName)
-            TextField("E-mail", text: $firstName)
-            TextField("Phone number", text: $firstName)
+            TextField("First Name", text: $viewModel.firstName)
+            TextField("Last Name", text: $viewModel.lastName)
+            TextField("E-mail", text: $viewModel.email)
+            TextField("Phone number", text: $viewModel.phoneNumber)
             Spacer()
         }.padding(EdgeInsets(top: 50, leading: 20, bottom: 30, trailing: 20))
     }

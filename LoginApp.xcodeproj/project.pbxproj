@@ -14,6 +14,7 @@
 		DEB3DACF250CD834001697EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB3DACE250CD834001697EF /* Preview Assets.xcassets */; };
 		DEB3DAD2250CD834001697EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB3DAD0250CD834001697EF /* LaunchScreen.storyboard */; };
 		DEB3DADD250CD834001697EF /* LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DADC250CD834001697EF /* LoginAppTests.swift */; };
+		DEB3DAE8250CDFE9001697EF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3DAE7250CDFE9001697EF /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DEB3DAD8250CD834001697EF /* LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB3DADC250CD834001697EF /* LoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppTests.swift; sourceTree = "<group>"; };
 		DEB3DADE250CD834001697EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB3DAE7250CDFE9001697EF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DEB3DAD0250CD834001697EF /* LaunchScreen.storyboard */,
 				DEB3DAD3250CD834001697EF /* Info.plist */,
 				DEB3DACD250CD834001697EF /* Preview Content */,
+				DEB3DAE7250CDFE9001697EF /* LoginViewModel.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB3DAE8250CDFE9001697EF /* LoginViewModel.swift in Sources */,
 				DEB3DAC6250CD832001697EF /* AppDelegate.swift in Sources */,
 				DEB3DAC8250CD832001697EF /* SceneDelegate.swift in Sources */,
 				DEB3DACA250CD832001697EF /* ContentView.swift in Sources */,
