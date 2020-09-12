@@ -84,11 +84,11 @@
 				DEB3DAC5250CD832001697EF /* AppDelegate.swift */,
 				DEB3DAC7250CD832001697EF /* SceneDelegate.swift */,
 				DEB3DAC9250CD832001697EF /* LoginScreen.swift */,
+				DEB3DAE7250CDFE9001697EF /* LoginViewModel.swift */,
 				DEB3DACB250CD834001697EF /* Assets.xcassets */,
 				DEB3DAD0250CD834001697EF /* LaunchScreen.storyboard */,
 				DEB3DAD3250CD834001697EF /* Info.plist */,
 				DEB3DACD250CD834001697EF /* Preview Content */,
-				DEB3DAE7250CDFE9001697EF /* LoginViewModel.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
